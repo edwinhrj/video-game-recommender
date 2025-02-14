@@ -1,5 +1,5 @@
 # reccSys
-We processed a 9.4M Steam game review dataset using Natural Language Processing (NLP) for sentiment analysis, refining it to a 700K interaction dataset. In a team of four, we implemented both content-based and collaborative filtering techniques to build a video game recommendation system. Our pipeline includes various machine learning and deep learning models, structured as follows:
+We processed a 9.4M Steam game review dataset using Natural Language Processing (NLP) for sentiment analysis, refining it to a 700K interaction dataset. In a team of four (Lim Xintian, David Law, Wesley Choy, Edwin Ho), we implemented both content-based and collaborative filtering techniques to build a video game recommendation system. Our pipeline includes various machine learning and deep learning models, structured as follows:
 
 1) Data Preparation & Exploratory Data Analysis (EDA) 
 2) Feature Engineering 
