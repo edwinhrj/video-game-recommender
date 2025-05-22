@@ -25,7 +25,7 @@ Since Steam lacks an explicit rating system, we used a HuggingFace transformer m
 
 ### LDA Topic Modeling
 
-We applied Latent Dirichlet Allocation (LDA) on game descriptions to extract latent topics that capture overlapping game characteristics. Using 30 topics optimized by coherence scores, these topic distributions enriched item-specific features and improved contextual understanding.
+Applied Latent Dirichlet Allocation (LDA) on game descriptions to extract latent topics that capture overlapping game characteristics. Using 30 topics optimized by coherence scores, these topic distributions enriched item-specific features and improved contextual understanding.
 
 ### K-Means Clustering
 
@@ -78,7 +78,7 @@ These clusters were used as categorical inputs to supplement the Wide & Deep mod
 
 ## Evaluation and Results
 
-- We used a temporal train-test split simulating real-world conditions.
+- Used a temporal train-test split simulating real-world conditions.
 - The predicted ratings serve as ground truth but may introduce some noise due to domain mismatch of the transformer model.
 - LightGCN outperformed other models, likely because it captures community relationships in the user-game interaction graph.
 - Popularity bias exists due to thresholding, favoring popular games but necessary for denser graph structures.
