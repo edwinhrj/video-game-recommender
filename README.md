@@ -17,6 +17,13 @@ Our goal is to enhance recommendation relevance and explainability by integratin
 
 ---
 
+## Datasets
+
+- [Top 1000 Steam Games](https://www.kaggle.com/datasets/joebeachcapital/top-1000-steam-games)
+- [2021 Steam Reviews](https://www.kaggle.com/datasets/najzeko/steam-reviews-2021)
+
+---
+
 ## Feature Engineering
 
 ### Predicted Rating Formation
@@ -84,13 +91,6 @@ These clusters were used as categorical inputs to supplement the Wide & Deep mod
 - Popularity bias exists due to thresholding, favoring popular games but necessary for denser graph structures.
 - Sparse TF-IDF features showed weaker performance in logistic regression models, potentially due to high dimensionality and feature correlation.
 - The Wide & Deep model's limitations stemmed from missing key user demographic and impression data, restricting full generalizability.
-
----
-
-## Datasets
-
-- [Top 1000 Steam Games](https://www.kaggle.com/datasets/joebeachcapital/top-1000-steam-games)
-- [2021 Steam Reviews](https://www.kaggle.com/datasets/najzeko/steam-reviews-2021)
 
 ---
 
