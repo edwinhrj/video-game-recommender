@@ -1,31 +1,12 @@
 # Video Game Recommendation System
 
-This repository contains the implementation and analysis of a recommendation system for video games, developed as part of the BT4222 Mining Web Data for Business Insights project by Group 4.
-
----
-
-## Table of Contents
-- [Project Overview](#project-overview)
-- [Feature Engineering](#feature-engineering)
-  - [Predicted Rating Formation](#predicted-rating-formation)
-  - [LDA Topic Modeling](#lda-topic-modeling)
-  - [K-Means Clustering](#k-means-clustering)
-- [Models and Performance](#models-and-performance)
-  - [Content-Based Models](#content-based-models)
-  - [Collaborative Filtering Models](#collaborative-filtering-models)
-- [Key Contributions](#key-contributions)
-- [Evaluation and Results](#evaluation-and-results)
-- [Datasets](#datasets)
-- [References](#references)
-- [Appendix](#appendix)
-
----
-
 ## Project Overview
 
 Users often face decision fatigue due to an overwhelming number of choices on gaming platforms like Steam. This can reduce engagement and retention. While Steam’s Interactive Recommender uses implicit signals such as playtime, it lacks explainability and does not fully utilize textual data like reviews and game descriptions.
 
 Our goal is to enhance recommendation relevance and explainability by integrating textual implicit signals and explicit features such as user reviews and generated ratings. We experiment with six models spanning content-based and collaborative filtering approaches:
+
+---
 
 - Stacked Logistic Regression (SLR)
 - Sentence-BERT (SBERT)
