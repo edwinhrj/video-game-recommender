@@ -103,12 +103,4 @@ These clusters were used as categorical inputs to supplement the Wide & Deep mod
 
 ---
 
-## Appendix
-
-- Coherence Score plots for LDA topic modeling
-- Elbow plots for user and game clusters
-- Model architecture diagrams for SBERT, Wide & Deep, DeepCoNN, and NCF
-- Embedding size and filter tuning results for DeepCoNN
-
----
 
